@@ -1,19 +1,113 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 21%
+    right: 18%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
-
+    top: 49%
+    right: 12%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 65%
+    right: 39%
+  &-4
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 70%
+    right: 64%
+  &-5
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    top: 22%
+    right: 70%
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
+
+//FONDO BANNER INTERNO TEMAS//
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/interno.svg") !important
+  background-repeat: no-repeat
+  background-color: #00E7BF !important
+
+
+.banner-principal__componente
+  em
+    color: $color-acento-botones
+  b
+    color: $color-primario
+.banner-principal__info
+  @media screen and (max-width: 992px)
+    padding-left: 5rem !important
+    padding-top: 4rem !important
+  @media screen and (max-width: 420px)
+    padding-left: 1.5rem !important
+    padding-top: 1.5rem !important
+    
+// TAMAÑO IMAGENES //
+.img18
+   max-width: 18px !important
+.img30
+   max-width: 30px !important
+.img40
+  max-width: 40px !important
+.img50
+  max-width: 50px !important
+.img60
+  max-width: 60px !important
+.img70
+   max-width: 70px !important
+.img80
+   max-width: 80px !important
+.img90
+  max-width: 90px !important
+.img100
+  max-width: 100px !important
+.img120
+  max-width: 120px !important
+.img140
+  max-width: 140px !important
+.img160
+  max-width: 160px !important
+.img180
+  max-width: 180px !important
+.img200
+  max-width: 200px !important
+.img250
+  max-width: 250px !important
+.img300
+  max-width: 300px !important
+.img350
+  max-width: 350px !important
+.img400
+  max-width: 400px !important
+.img420
+  max-width: 420px !important
+.img450
+  max-width: 450px !important
+.img600
+  max-width: 600px !important
+.img700
+  max-width: 700px !important
+.img800
+  max-width: 800px !important
+.img900
+  max-width: 900px !important
+
+//COLORES CONTENIDO//
+.colr
+  span
+    color: white !important
+  &_1
+    color: $color-acento-contenido

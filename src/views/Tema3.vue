@@ -1,12 +1,13 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
-      .titulo-principal__numero
+      .titulo-principal__numero.colr
         span 3
-      h1 Titulo de primer nivel
-
+      h1 Sustantivos contables e incontables
+    
+   
 </template>
 
 <script>

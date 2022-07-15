@@ -4,17 +4,15 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero.colr
-        span 1
-      h1 Alimentos y cantidades - <em>I like it!</em>
-
+        span 6
+      h1 Pronunciación de sonidos <em>s - es - Like a bee!</em>
     
-  
+   
 </template>
 
 <script>
 export default {
-  name: 'Tema1',
-  components: {},
+  name: 'Tema3',
   data: () => ({
     // variables de vue
   }),
