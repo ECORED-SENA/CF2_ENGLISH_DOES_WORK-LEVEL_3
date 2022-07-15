@@ -1,1 +1,1 @@
-module.exports = '<em>A shopping day!</em>'
+module.exports = 'A shopping day!'
