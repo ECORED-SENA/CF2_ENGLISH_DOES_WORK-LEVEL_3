@@ -26,6 +26,18 @@ export default {
         clases: ['banner-principal-decorativo-5'],
         imagen: require('@/assets/curso/portada/flot6.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-6'],
+        imagen: require('@/assets/curso/portada/flot7.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-7'],
+        imagen: require('@/assets/curso/portada/flot8.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-8'],
+        imagen: require('@/assets/curso/portada/flot9.svg'),
+      },
     ],
   },
   menuPrincipal: {
