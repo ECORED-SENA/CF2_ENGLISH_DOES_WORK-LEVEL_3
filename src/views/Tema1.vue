@@ -301,10 +301,42 @@
           p.mb-0 Seguidamente, se presentan una serie de situaciones a las cuales puede dar respuesta de acuerdo con el vocabulario señalado anteriormente:
         .col-12.col-md-5
           SlyderF.mb-5(columnas="col-lg-12 col-xl-12")
-            .tarjeta.bgr_2.p-4
-              .bgr_3
-                Traduccion.color-primario(:dialogo="traduccion")
-
+            .tarjeta.bgr_2.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo1")
+            .tarjeta.bgr_4.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo2")
+            .tarjeta.bgr_5.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo3")
+            .tarjeta.bgr_6.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo4")
+            .tarjeta.bgr_7.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo5")
+            .tarjeta.bgr_8.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo6")
+            .tarjeta.bgr_9.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo7")
+            .tarjeta.bgr_10.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo8")
+            .tarjeta.bgr_11.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo9")
+            .tarjeta.bgr_12.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo10")
+            .tarjeta.bgr_13.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo11")
+            .tarjeta.bgr_14.p-3.p-md-5
+              .bgr_3.pst_2
+                TraduccionAudio.color-acento-contenido.colr_3(:dialogo="dialogo12")
           
 
 
@@ -313,10 +345,12 @@
 
 <script>
 import Traduccion from '../components/Traduccion.vue'
+import TraduccionAudio from '../components/TraduccionAudio.vue'
 export default {
   name: 'Tema1',
   components: {
     Traduccion,
+    TraduccionAudio,
   },
   data: () => ({
     mostrarIndicadorAudio: true,
@@ -398,6 +432,114 @@ export default {
         },
       ],
     },
+    dialogo1: [
+      {
+        textoIng:
+          '<em>Susan wants to buy a</em> <i>pair of sandals.</i> <em>Answer: She goes to a</em> <b>shoe store.</b>',
+        textoEsp:
+          'Susan quiere comprar un par de sandalias. Respuesta: Ella va a una zapatería.',
+        audio: require('@/assets/curso/audios/1.2/2.mp3'),
+      },
+    ],
+    dialogo2: [
+      {
+        textoIng:
+          '<em>Peter needs</em> <i>a black jacket.</i> <em>Answer: He visits the</em> <b>clothing store.</b>',
+        textoEsp:
+          'Peter necesita una chaqueta negra. Respuesta: Él visita la tienda de ropa. ',
+        audio: require('@/assets/curso/audios/1.2/3.mp3'),
+      },
+    ],
+    dialogo3: [
+      {
+        textoIng:
+          '<em>Milly needs a</em> <i>Chemistry book.</i> <em>Answer: She goes to the </em> <b>library.</b>',
+        textoEsp:
+          'Milly necesita un libro de Química. Respuesta: Ella va a la biblioteca.',
+        audio: require('@/assets/curso/audios/1.2/4.mp3'),
+      },
+    ],
+    dialogo4: [
+      {
+        textoIng:
+          '<em>Lia wants to buy a</em> <i>cake.</i> <em>Answer: She goes to the</em> <b>bakery</b>',
+        textoEsp:
+          'Lia quiere comprar una torta. Respuesta: Ella va a la panadería.',
+        audio: require('@/assets/curso/audios/1.2/5.mp3'),
+      },
+    ],
+    dialogo5: [
+      {
+        textoIng:
+          '<em>I want to eat an</em> <i>ice cream.</i> <em>Answer: I go to the</em> <b>ice cream shop.</b>',
+        textoEsp:
+          'Yo quiero comer un helado. Respuesta: Yo voy a la heladería.',
+        audio: require('@/assets/curso/audios/1.2/6.mp3'),
+      },
+    ],
+    dialogo6: [
+      {
+        textoIng:
+          '<em>Tom wants to buy an</em> <i>Iphone.</i> <em>Answer: He goes to the</em> <b>electronic store.</b>',
+        textoEsp:
+          'Tom quiere comprar un Iphone. Respuesta: Él va a la tienda de electrónicos.',
+        audio: require('@/assets/curso/audios/1.2/7.mp3'),
+      },
+    ],
+    dialogo7: [
+      {
+        textoIng:
+          '<em>Sam needs to buy a</em> <i>chair.</i> <em>Answer: He goes to the </em> <b>shoe store.</b>',
+        textoEsp:
+          'Sam necesita comprar una silla. Respuesta: Él va a la mueblería.',
+        audio: require('@/assets/curso/audios/1.2/8.mp3'),
+      },
+    ],
+    dialogo8: [
+      {
+        textoIng:
+          '<em>Lisa has to buy 200</em> <i>grams of cheese.</i> <em>Answer: She goes to the</em> <b>supermarket.</b>',
+        textoEsp:
+          'Lisa tiene que comprar 200 gramos de queso. Respuesta: Ella va al supermercado.',
+        audio: require('@/assets/curso/audios/1.2/9.mp3'),
+      },
+    ],
+    dialogo9: [
+      {
+        textoIng:
+          '<em>George wants to buy a</em> <i>CD by Karol G.</i> <em>Answer: He goes to the</em> <b>music store.</b>',
+        textoEsp:
+          'George quiere comprar un CD de Karol G. Respuesta: Él va a la tienda de música',
+        audio: require('@/assets/curso/audios/1.2/10.mp3'),
+      },
+    ],
+    dialogo10: [
+      {
+        textoIng:
+          '<em>Laura needs to buy a</em> <i>doll.</i> <em>Answer: She goes to the</em> <b>toy store.</b>',
+        textoEsp:
+          'Laura necesita comprar una muñeca. Respuesta: Ella va a la tienda de juguetes.',
+        audio: require('@/assets/curso/audios/1.2/11.mp3'),
+      },
+    ],
+    dialogo11: [
+      {
+        textoIng:
+          '<em>They want to buy an engagement</em> <i>ring.</i> <em>Answer: They go to the </em> <b>jewelry.</b>',
+        textoEsp:
+          'Ellos quieren comprar un anillo de compromiso. Respuesta: Ellos van a la joyería.',
+        audio: require('@/assets/curso/audios/1.2/12.mp3'),
+      },
+    ],
+    dialogo12: [
+      {
+        textoIng:
+          '<em>Marty wants to see a</em> <i>movie with his friends.</i> <em>Answer: He goes to the</em> <b>movie theater.</b>',
+        textoEsp:
+          'Marty quiere ver una película con sus amigos. Respuesta: Él va al cine.',
+        audio: require('@/assets/curso/audios/1.2/13.mp3'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
