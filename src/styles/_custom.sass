@@ -187,7 +187,6 @@
     @media screen and (max-width: 420px)
       top: -48px
       height: calc( 100% + 6rem)
-    
 .bg_grad-03
   position: relative
   .row, p, .cajon, .slyder-f
@@ -222,6 +221,75 @@
     background-size: cover
     @media screen and (max-width: 420px)
       background-image: url("../assets/curso/tema1/fondo1m.svg")
+.bg_grad-05
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -6%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-color: #E1E8FF
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      top: -48px
+      height: calc( 100% + 6rem)
+.bg_grad-06
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -6%
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-color: #FFF0F1
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      top: -48px
+      height: calc( 100% + 6rem)
+.bg_grad-07
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: -30px
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-color: #FFBFC1
+    background-repeat: no-repeat
+    @media screen and (max-width: 420px)
+      top: -48px
+.bg_grad-08
+  position: relative
+  .row, p
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: -45px
+    left: 0
+    width: 100%
+    height: calc( 100% + 5rem)
+    background-image: url('../assets/curso/tema2/fondo1.svg')    
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center 
+    @media screen and (max-width: 420px)
+      top: -10px
+      height: calc( 100% + 1rem)
     
 //FONDOS//
 .bgr
@@ -282,7 +350,18 @@
     background-image: url("../assets/curso/tema1/t1-35.png")
     background-size: cover
     background-repeat: no-repeat
-
+  &_15
+    background-color: #C4D1FF
+  &_16
+    background-color: #FFDFE0
+  &_17
+    background-color: #FFDFE0
+    border: 2px solid #FFBFC1!important
+  &_18
+    background-color: white
+    border-radius: 10px
+    border: 2px solid #FFBFC1!important
+    
 //COLOR DE TABLAS//
 .bgt1header
   background-color: #3C3FA7
@@ -306,5 +385,25 @@
       margin-bottom: 70px
   &_2
     margin-top: 14rem
+  &_3
+    margin-bottom: 80px
+    @media screen and (max-width: 420px)
+      margin-bottom: 0
+ 
 //MODIFICAR CLASES//
-
+.tarjeta-avatar .tarjeta
+  padding-top: 30px !important
+.tarjeta-avatar
+  img
+    top: 30px
+.tarjeta-audio.color-acento-contenido .tarjeta-audio__input 
+  input[type=range]
+    background: #E1E8FF
+    background-image: linear-gradient(#6b8dff,#6b8dff)
+.tarjeta-audio
+  border: none
+  border-radius: none
+  padding: 0.7em
+.img-infografica__item
+  width: 3%
+    
