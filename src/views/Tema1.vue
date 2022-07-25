@@ -153,7 +153,7 @@
 
     figure.mb-5.mt-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/UeAg1HDMYrg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.d-flex.justify-content-center Luego, escuche y complete: 
 
@@ -376,47 +376,47 @@ export default {
           personaje: 'Matthew',
           textoIng: 'they are in a ***',
           textoEsp: 'estan en un ***',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/2.mp3'),
           palabra: 'restaurant',
         },
         {
           personaje: 'Paula',
           textoIng: 'Question 2: What does Luis want to eat at the restaurant?',
           textoEsp: 'Pregunta 2: ¿Qué quiere comer Luis en el restaurante?',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/3.mp3'),
         },
         {
           personaje: 'Matthew',
           textoIng: 'He wants to eat *** and a side order of fries.',
           textoEsp: 'Quiere comer *** y una guarnición de papas fritas.',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/4.mp3'),
           palabra: 'grilled steak',
         },
         {
           personaje: 'Paula',
           textoIng: 'Question 3: What does Luis want to eat at the restaurant?',
           textoEsp: 'Pregunta 3: ¿Qué quiere comer Merly en el restaurante?',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/5.mp3'),
         },
         {
           personaje: 'Matthew',
           textoIng: 'Merly wants to eat grilled steak too and a ***',
           textoEsp:
             'Merly también quiere comer un bistec a la parrilla y una ***',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/6.mp3'),
           palabra: 'salad',
         },
         {
           personaje: 'Paula',
           textoIng: 'Question 4: What do they drink at the restaurant?',
           textoEsp: 'Pregunta 4: ¿Qué beben en el restaurante?',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/7.mp3'),
         },
         {
           personaje: 'Matthew',
           textoIng: 'Merly and Luis drink a *** of red wine.',
           textoEsp: 'Merly y Luis beben una *** de vino tinto',
-          audio: require('@/assets/curso/audios/1.1/1.mp3'),
+          audio: require('@/assets/curso/audios/1.1/8.mp3'),
           palabra: 'glass',
         },
       ],
