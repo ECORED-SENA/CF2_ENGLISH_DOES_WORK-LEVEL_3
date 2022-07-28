@@ -9,9 +9,9 @@
     
     .bg_grad-12.mb-5
       .row
-        .col-12.col-md-2(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/tema5/t5-1.svg', alt='recuadros con letras')
+        .col-12.col-md-2.mb-3.mb-md-0(data-aos="zoom-in")
+          figure.d-flex.justify-content-center
+            img.img140(src='@/assets/curso/tema5/t5-1.svg', alt='recuadros con letras')
         .col-12.col-md-10.d-flex.align-items-center
           p.mb-0 Para indicar cantidades, se utilizan ciertas expresiones que permiten conocer o definir el nombre o sustantivo, como lo hacen los artículos. Por ende, estas expresiones  de cantidad se ubican antes del sustantivo en la oración. Algunos de los cuantificadores más utilizados son: <em>much, many, a lot of y little.</em>
     

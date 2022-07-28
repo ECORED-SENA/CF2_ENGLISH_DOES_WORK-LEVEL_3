@@ -10,8 +10,8 @@
     .bg_grad-10.mb-5
       .row
         .col-12.col-md-2(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/tema3/t3-1.svg', alt='recuadros con letras')
+          figure.d-flex.justify-content-center
+            img.img140(src='@/assets/curso/tema3/t3-1.svg', alt='recuadros con letras')
         .col-12.col-md-10.d-flex.align-items-center
           p.mb-0 Los sustantivos, en general, pueden ser contables e incontables. Algunos pueden contarse utilizando los números, como, por ejemplo, limón: un limón, dos limones; mientras que otros sustantivos, los incontables, no utilizan números, debido a que no pueden contarse, como cuando se habla de un líquido como el agua o la leche.
     
@@ -32,12 +32,12 @@
                 p Se pueden utilizar <b><em>some</em> y <em>any</em></b> con estos sustantivos.
                 p <b><em>For example:</em></b>
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo1")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo2")
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo3")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo4")
@@ -49,7 +49,7 @@
                 p Se puede utilizar el artículo indefinido <em><b>a/an</b></em> con los sustantivos contables. 
                 p <b><em>For example:</em></b>
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo6")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo7")
@@ -58,7 +58,7 @@
                 p Se pueden utilizar <b><em>a few</em> y <em>many</em></b> con los nombres contables.  
                 p <b><em>For example:</em></b>
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo8")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo9")
@@ -67,8 +67,8 @@
           figure
             img(src='@/assets/curso/tema3/t3-2.jpg', alt='hombre con una idea')
 
-      .row.mb-5
-        .col-12.col-md-4
+      .row
+        .col-12.col-md-4.mb-3.mb-md-0
           figure
             img(src='@/assets/curso/tema3/t3-3.jpg', alt='hombre con una idea')
         .col-12.col-md-8
@@ -78,12 +78,12 @@
                 p Los nombres contables pueden ser singulares o plurales.
                 p <b><em>For example:</em></b>
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo10")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo11")
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo12")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo13")
@@ -92,12 +92,12 @@
                 p Cuando un nombre contable es plural, se usa solo.
                 p <b><em>For example:</em></b>
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo14")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo15")
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo16")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo17")
@@ -106,12 +106,12 @@
                 p Cuando un nombre contable es singular, se puede utilizar una palabra como: <em><b>a, the, my, this.</b></em> 
                 p <b><em>For example:</em></b>
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo18")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo19")
                 .row.mb-3
-                  .col-12.col-md-6
+                  .col-12.col-md-6.mb-3.mb-md-0
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo20")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo21")
@@ -124,17 +124,17 @@
     .bg_grad-12.mb-5
       .row
         .col-12.col-md-2(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/tema3/t3-4.svg', alt='recuadros con letras')
+          figure.d-flex.justify-content-center
+            img.img140(src='@/assets/curso/tema3/t3-4.svg', alt='recuadros con letras')
         .col-12.col-md-10.d-flex.align-items-center
           p.mb-0 Los sustantivos no contables son cosas que no pueden ser contadas una por una y se caracterizan porque no tienen forma plural. Por ejemplo, no pueden contarse jugos o leche, pero si botellas o litros de jugo o de leche. Algunos nombres o sustantivos incontables son: amor, arte, azúcar, aceite, café, felicidad, entre otros. 
     
     p.mb-5 Algunas características de los nombres o sustantivos incontables son:
 
     TabsC.color-acento-contenido
-      .py-3.py-md-4.bgr_23(titulo="Verbo en singular")
+      .p-3.py-md-4.bgr_23(titulo="Verbo en singular")
         .row.pt-0.pt-md-4.d-flex.justify-content-center
-          .col-md-4
+          .col-md-4.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema3/t3-5.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
@@ -142,18 +142,18 @@
             p.mb-4 Después de un nombre incontable, se usa el <b>verbo en singular.</b> 
             p.mb-4.colr_2.text-bold <em>For example:</em>
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo22")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo23")
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo24")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo25")
-      .py-3.py-md-4.bgr_23(titulo="<em>Any</em> y <em>some</em>")
+      .p-3.py-md-4.bgr_23(titulo="<em>Any</em> y <em>some</em>")
         .row.pt-0.pt-md-4.d-flex.justify-content-center
-          .col-md-4
+          .col-md-4.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema3/t3-6.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
@@ -161,18 +161,18 @@
             p.mb-4 Se pueden utilizar <b><em>any</em> y <em>some</em></b> con nombres incontables 
             p.mb-4.colr_2.text-bold <em>For example:</em>
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo26")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo27")
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo28")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo29")
-      .py-3.py-md-4.bgr_23(titulo="<em>Little</em> y <em>much </em>")
+      .p-3.py-md-4.bgr_23(titulo="<em>Little</em> y <em>much </em>")
         .row.pt-0.pt-md-4.d-flex.justify-content-center
-          .col-md-4
+          .col-md-4.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema3/t3-7.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
@@ -180,18 +180,18 @@
             p.mb-4  Se pueden usar <b><em>a little</em> y <em>much</em></b> con nombres incontables.  
             p.mb-4.colr_2.text-bold <em>For example:</em>
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo30")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo31")
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo32")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo33")
-      .py-3.py-md-4.bgr_23(titulo="Nombres incontables")
+      .p-3.py-md-4.bgr_23(titulo="Nombres incontables")
         .row.pt-0.pt-md-4.d-flex.justify-content-center
-          .col-md-4
+          .col-md-4.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/tema3/t3-8.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
@@ -199,12 +199,12 @@
             p.mb-4  Con nombres incontables, no se utiliza el artículo indefinido <em><b>a o an</b></em>, pero se pueden usar algunas palabras de medidas, como a…of.   
             p.mb-4.colr_2.text-bold <em>For example:</em>
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo34")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo35")
             .row.mb-3
-              .col-12.col-md-6
+              .col-12.col-md-6.mb-3.mb-md-0
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo36")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo37")

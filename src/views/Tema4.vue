@@ -24,7 +24,7 @@
 
     .bg_grad-15
       .row.mb-5
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-3.mb-md-0
           .bgr_26.pst_4.d-flex.justify-content-end
             .bgr_27.p-4
               div
@@ -35,7 +35,7 @@
                   .indicador--click(v-if="mostrarIndicadorAudio")
                 p.mb-0.colr_2.text-bold.text-center <em>House - Houses</em>
                 p.mb-0.text-center Casa - Casas
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-3.mb-md-0
           .bgr_28.pst_4.d-flex.justify-content-end
             .bgr_27.p-4
               div
@@ -111,7 +111,7 @@
       p.mb-5.text-center Al formar una oración con el plural de estos sustantivos, se tiene: 
 
       .row.mb-5
-        .col-12.col-md-6.d-flex.align-items-center(data-aos="zoom-in")
+        .col-12.col-md-6.d-flex.align-items-center.mb-3.mb-md-0(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema4/t4-5.jpg', alt='Texto que describa la imagen')
         .col-12.col-md-6
@@ -127,7 +127,7 @@
                   p.mb-0 Las mesas son verdes.  
                 .col-md-4
                   figure
-                    img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
+                    img.d-none.d-md-flex(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
               .row.d-flex.align-items-center
                 .col-md-8.mb-4.mb-md-0.px-5
                   TarjetaAudio.color-acento-contenido.bgr_31.my-3(
@@ -138,7 +138,7 @@
                   p.mb-0 Los perros caminan en el parque.
                 .col-md-4
                   figure
-                    img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
+                    img.d-none.d-md-flex(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
               .row.d-flex.align-items-center
                 .col-md-8.mb-4.mb-md-0.px-5
                   TarjetaAudio.color-acento-contenido.bgr_31.my-3(
@@ -149,7 +149,7 @@
                   p.mb-0 Las oficinas son cómodas.
                 .col-md-4
                   figure
-                    img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
+                    img.d-none.d-md-flex(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
               .row.d-flex.align-items-center
                 .col-md-8.mb-4.mb-md-0.px-5
                   TarjetaAudio.color-acento-contenido.bgr_31.my-3(
@@ -160,7 +160,7 @@
                   p.mb-0 Esos libros son interesantes.
                 .col-md-4
                   figure
-                    img(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
+                    img.d-none.d-md-flex(src='@/assets/curso/tema4/t4-6.svg', alt='Texto que describa la imagen')
     
     separador
 
@@ -172,8 +172,8 @@
 
     .row
       .col-12.col-md-8  
-        .bgr_32.p-5
-          SlyderA.bgr_3.p-5(tipo="b")
+        .bgr_32.p-3.p-md-5
+          SlyderA.bgr_3.p-3.p-md-5.pst_9(tipo="b")
             div
               p Cuando el sustantivo termina en <b>ch, s, sh, x</b> o en <b>z</b>, para formar el plural, se le añade al final  <b><em>“es”</em></b>. Por ejemplo:
               .tabla1.color-acento-botones.mb-lg-0

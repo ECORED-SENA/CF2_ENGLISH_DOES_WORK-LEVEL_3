@@ -10,8 +10,8 @@
     .bg_grad-09.mb-5
       .row
         .col-12.col-md-2(data-aos="zoom-in")
-          figure
-            img(src='@/assets/curso/tema6/t6-1.svg', alt='recuadros con letras')
+          figure.d-flex.justify-content-center
+            img.img140(src='@/assets/curso/tema6/t6-1.svg', alt='recuadros con letras')
         .col-12.col-md-10.d-flex.align-items-center
           div
             span.mb-0 En la comunicación, es importante tener una buena pronunciación, por ello, es importante revisarla desde los sonidos de la 

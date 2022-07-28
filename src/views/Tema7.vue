@@ -9,7 +9,7 @@
 
     .bgr_34.mb-5.p-5
       .row
-        .col-12.col-md-4
+        .col-12.col-md-4.mb-3.mb-md-0
           figure
             img(src='@/assets/curso/tema7/t7-1.png', alt='Texto que describa la imagen')
         .col-12.col-md-8

@@ -4,11 +4,18 @@
     position: absolute
     top: 21%
     right: 18%
+    @media screen and (max-width: 992px)
+      top: 16%
+      right: 7%
   &-2
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
     top: 49%
     right: 10%
+    @media screen and (max-width: 992px)
+      width: 70px
+      top: 55%
+      right: 5%
   &-3
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
@@ -19,26 +26,40 @@
     position: absolute
     top: 75%
     right: 62%
+    @media screen and (max-width: 992px)
+      right: 67% 
   &-5
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
     top: 22%
     right: 70%
+    @media screen and (max-width: 992px)
+      right: 77% 
+      top: 18%   
   &-6
     animation: float2 3s ease-in-out infinite alternate
     position: absolute
     top: 66%
     right: 82%
+    @media screen and (max-width: 992px)
+      right: 86% 
+      top: 60%
   &-7
     animation: float2 3s ease-in-out infinite alternate
     position: absolute
     top: 68%
     right: 26%
+    @media screen and (max-width: 992px)
+      right: 24% 
+      top: 74%
   &-8
     animation: float2 3s ease-in-out infinite alternate
     position: absolute
     top: 39%
     right: 19%
+    @media screen and (max-width: 992px)
+      right: 11% 
+      top: 40%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -49,6 +70,9 @@
     transform: translateX(20px)
   100%
     transform: translateX(0px)
+.banner-principal__row 
+  @media screen and (max-width: 992px)
+    justify-content: start
 
 .banner-principal__info
   width: 600px
@@ -58,7 +82,16 @@
   background-position: 10% 13%, 17% 76%
   background-size: 50%, 25%
   animation: Flitp1 6s ease infinite
-
+  @media screen and (max-width: 992px)
+    background-position: 50% 13%, 50% 95%
+    padding-top: 6rem !important
+    width: 560px
+  @media screen and (max-width: 420px)
+    background-image: none
+    animation: none
+    padding-left: 1.5rem !important
+    padding-top: 1.5rem !important   
+   
 @keyframes Flitp1
   0%
     background-image: url("../assets/curso/portada/banner-principal-decorativo-1.svg"), url("../assets/curso/portada/banner-principal-decorativo-2.svg")
@@ -81,13 +114,6 @@
     color: $color-acento-botones
   b
     color: $color-primario
-.banner-principal__info
-  @media screen and (max-width: 992px)
-    padding-left: 5rem !important
-    padding-top: 4rem !important
-  @media screen and (max-width: 420px)
-    padding-left: 1.5rem !important
-    padding-top: 1.5rem !important
     
 // TAMAÑO IMAGENES //
 .img18
@@ -305,7 +331,8 @@
     background-color: #E1E8FF
     background-repeat: no-repeat
     @media screen and (max-width: 420px)
-      top: -48px
+      top: -20px
+      height: calc( 100% + 3rem)
 .bg_grad-10
   position: relative
   .row, p
@@ -321,7 +348,8 @@
     background-color: #D5D6F0
     background-repeat: no-repeat
     @media screen and (max-width: 420px)
-      top: -48px
+      top: -20px
+      height: calc( 100% + 3rem) 
 .bg_grad-11
   position: relative
   .row, p
@@ -354,7 +382,8 @@
     background-color: #FFBFC1
     background-repeat: no-repeat
     @media screen and (max-width: 420px)
-      top: -48px
+      top: -20px
+      height: calc( 100% + 3rem) 
 .bg_grad-13
   position: relative
   .row, p
@@ -421,7 +450,8 @@
     background-repeat: no-repeat
     border-radius: 10px
     @media screen and (max-width: 420px)
-      top: -48px
+      top: -20px
+      width: 100%
 
     
 //FONDOS//
@@ -556,6 +586,11 @@
     background-size: cover
     background-repeat: no-repeat
     border-radius: 20px
+    @media screen and (max-width: 420px)
+      background-image: none
+      background-color: #FFDFE0
+      border-radius: 20px
+      
    
 //COLOR DE TABLAS//
 .bgt1header
@@ -593,6 +628,12 @@
   &_7
     .text-end
       text-align: left !important
+  &_8
+    background-repeat: no-repeat;
+    background-size: cover;
+  &_9
+    .slyder-a__bullets__item
+      margin: 0 8px
  
 //MODIFICAR CLASES//
 .tarjeta-avatar .tarjeta

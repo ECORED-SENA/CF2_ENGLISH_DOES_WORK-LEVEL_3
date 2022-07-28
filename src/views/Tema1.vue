@@ -176,109 +176,109 @@
           span <em>There are many stores in a mall.</em> / Hay muchas tiendas en un centro comercial.
 
     SlyderF.slyder-arrows.mb-5(columnas="col-lg-6 col-xl-2")(data-aos="fade-left")
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Bakery
             br
             | (Panadería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-7.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-7.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Bookstores
             br
             | (Librerías)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-8.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-8.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Candy store
             br
             | (Dulcería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-9.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-9.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Clothing stores
             br
             | (Tiendas de ropa)
-      .tarjeta.p-3.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-10.png')})`}" style='height: 394px')
+      .tarjeta.p-3.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-10.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Department stores
             br
             | (Tiendas por departamentos)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-11.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Drugstores
             br
             | (Farmacias)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Electronic stores
             br
             | (Tiendas de electrónicos)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-13.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Furniture store
             br
             | (Mueblerías)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-14.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-14.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Ice cream shop
             br
             | (Heladería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Jewelry store
             br
             | (Tiendas de bisutería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-16.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Laundry
             br
             | (Lavandería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-17.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-17.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Lingerie stores
             br
             | (Tiendas de lencería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-18.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-18.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-2.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Minimarket
             br
             | (Minimercado)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-19.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-19.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Music stores
             br
             | (Tiendas de música)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-20.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-20.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Shoe store
             br
             | (Zapatería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-21.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-21.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-2.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Supermarket
             br
             | (Supermercado)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-22.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-22.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Toy stores
             br
             | (Jugueterías)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-23.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg.pst_8(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-23.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold <em>Movie theater</em> / cinema
