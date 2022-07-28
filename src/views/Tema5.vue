@@ -201,7 +201,7 @@
             p.mb-0 ¿Come Shirley un pedacito de carne?
       .tarjeta.color-acento-botones--borde.p-4(titulo="Uso de la expresión <em>“too much”</em>")
         h4.colr_2 Uso de la expresión <em>“too much”</em>
-        p Sirve para denotar un grado más allá de lo normal en un sustantivo. En general, puede señalarse que “too much” se usa con sustantivos incontables, como <em>water</em> (agua), <em>sugar</em> (azúcar), <em>pressure</em> (presión).  
+        p Sirve para denotar un grado más allá de lo normal en un sustantivo. En general, puede señalarse que <em>“too much”</em> se usa con sustantivos incontables, como <em>water</em> (agua), <em>sugar</em> (azúcar), <em>pressure</em> (presión).  
         p.text-bold <em>For example:</em>
         .row.d-flex.justify-content-center.mb-3.mb-md-0
           .col-12.col-md-2.mb-3.mb-md-0
@@ -220,7 +220,7 @@
               img(src='@/assets/curso/tema5/t5-16.svg', alt='Texto que describa la imagen')
           .col-12.col-md-5
             TarjetaAudio.color-acento-contenido.bgr_33.my-3(
-              texto="<i><span1>That is too much <em>water</em> for you. </span1></i>"
+              texto="<i><span1>That is too much <b>water</b> for you. </span1></i>"
                 :audio="require('@/assets/curso/audios/5/17.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )                    
@@ -261,7 +261,7 @@
             p.mb-0 Mary estudia demasiado.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Uso de la expresión <em>“too many”</em>")
         h4.colr_2 Uso de la expresión <em>“too many”</em>
-        p Sirve para denotar un grado más allá de lo normal en un sustantivo, pero, en este caso, “too many” se utiliza con sustantivos contables en plural, como <em>oranges</em> (naranjas), <em>ships</em> (barcos), <em>boxes</em> (cajas), entre otros.   
+        p Sirve para denotar un grado más allá de lo normal en un sustantivo, pero, en este caso, <em>“too many”</em> se utiliza con sustantivos contables en plural, como <em>oranges</em> (naranjas), <em>ships</em> (barcos), <em>boxes</em> (cajas), entre otros.   
         p.text-bold <em>For example:</em>
         .row.d-flex.justify-content-center.mb-3.mb-md-0
           .col-12.col-md-2.mb-3.mb-md-0

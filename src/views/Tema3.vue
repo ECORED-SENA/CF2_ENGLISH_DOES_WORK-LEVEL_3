@@ -27,9 +27,9 @@
       .row.mb-5
         .col-12.col-md-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bgr_21")
-            div(titulo="<em>Some y Any</em>").p-4
+            div(titulo="<em>Some</em> y <em>Any</em>").p-4
               .bgr_19.p-4
-                p Se pueden utilizar <em><b>some y any</b></em> con estos sustantivos.
+                p Se pueden utilizar <b><em>some</em> y <em>any</em></b> con estos sustantivos.
                 p <b><em>For example:</em></b>
                 .row.mb-3
                   .col-12.col-md-6
@@ -44,18 +44,18 @@
                 .row
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo5")
-            div(titulo="<em>A / An</em>").p-4
+            div(titulo="<em>A/An</em>").p-4
               .bgr_19.p-4
-                p Se puede utilizar el artículo indefinido <em><b>a / an</b></em> con los sustantivos contables. 
+                p Se puede utilizar el artículo indefinido <em><b>a/an</b></em> con los sustantivos contables. 
                 p <b><em>For example:</em></b>
                 .row.mb-3
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo6")
                   .col-12.col-md-6
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo7")
-            div(titulo="<em>Few y Many</em>").p-4
+            div(titulo="<em>Few</em> y <em>Many</em>").p-4
               .bgr_19.p-4
-                p Se pueden utilizar <em><b>a few y many</b></em> con los nombres contables.  
+                p Se pueden utilizar <b><em>a few</em> y <em>many</em></b> con los nombres contables.  
                 p <b><em>For example:</em></b>
                 .row.mb-3
                   .col-12.col-md-6
@@ -103,7 +103,7 @@
                     TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo17")
             div(titulo="Nombre singular").p-4
               .bgr_19.p-4
-                p Cuando un nombre contable es singular, se puede utilizar una palabra como: <em><b>a , the, my, this.</b></em> 
+                p Cuando un nombre contable es singular, se puede utilizar una palabra como: <em><b>a, the, my, this.</b></em> 
                 p <b><em>For example:</em></b>
                 .row.mb-3
                   .col-12.col-md-6
@@ -151,14 +151,14 @@
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo24")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo25")
-      .py-3.py-md-4.bgr_23(titulo="<em>Any y some</em>")
+      .py-3.py-md-4.bgr_23(titulo="<em>Any</em> y <em>some</em>")
         .row.pt-0.pt-md-4.d-flex.justify-content-center
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/t3-6.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            h4.mb-4.colr_2 <em>Any y some</em> 
-            p.mb-4 Se pueden utilizar <em><b>any y some</b></em> con nombres incontables 
+            h4.mb-4.colr_2 <em>Any</em> y <em>some</em> 
+            p.mb-4 Se pueden utilizar <b><em>any</em> y <em>some</em></b> con nombres incontables 
             p.mb-4.colr_2.text-bold <em>For example:</em>
             .row.mb-3
               .col-12.col-md-6
@@ -170,14 +170,14 @@
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo28")
               .col-12.col-md-6
                 TraduccionAudio.color-acento-contenido.bgr_20(:dialogo="dialogo29")
-      .py-3.py-md-4.bgr_23(titulo="<em>Little y much </em>")
+      .py-3.py-md-4.bgr_23(titulo="<em>Little</em> y <em>much </em>")
         .row.pt-0.pt-md-4.d-flex.justify-content-center
           .col-md-4
             figure
               img(src='@/assets/curso/tema3/t3-7.jpg', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            h4.mb-4.colr_2 <em>Little y much</em>  
-            p.mb-4  Se pueden usar <em><b>a little y much</b></em> con nombres incontables.  
+            h4.mb-4.colr_2 <em>Little</em> y <em>much</em>  
+            p.mb-4  Se pueden usar <b><em>a little</em> y <em>much</em></b> con nombres incontables.  
             p.mb-4.colr_2.text-bold <em>For example:</em>
             .row.mb-3
               .col-12.col-md-6
@@ -253,16 +253,16 @@ export default {
     ],
     dialogo5: [
       {
-        textoIng: 'Jhon doesn’t have any hats.(FALTA AUDIO)',
+        textoIng: 'Jhon doesn’t have any hats.',
         textoEsp: 'Jhon no tiene ningún sombrero.',
-        audio: require('@/assets/curso/audios/3.1/2.mp3'),
+        audio: require('@/assets/curso/audios/3.1/5.mp3'),
       },
     ],
     dialogo6: [
       {
-        textoIng: 'Mary wants a pear.(FALTA AUDIO)',
+        textoIng: 'Mary wants a pear.',
         textoEsp: 'Mary quiere una pera.',
-        audio: require('@/assets/curso/audios/3.1/2.mp3'),
+        audio: require('@/assets/curso/audios/3.1/6.mp3'),
       },
     ],
     dialogo7: [
@@ -351,9 +351,9 @@ export default {
     ],
     dialogo19: [
       {
-        textoIng: 'Where is my pencil?(FALTA AUDIO)',
+        textoIng: 'Where is my pencil?',
         textoEsp: '¿Dónde está mi lápiz?',
-        audio: require('@/assets/curso/audios/3.1/17.mp3'),
+        audio: require('@/assets/curso/audios/3.1/19.mp3'),
       },
     ],
     dialogo20: [
@@ -435,51 +435,51 @@ export default {
     ],
     dialogo31: [
       {
-        textoIng: 'She wants a little space in the room.(FALTA AUDIO)',
+        textoIng: 'She wants a little space in the room.',
         textoEsp: 'Ella quiere un poco de espacio en la habitación.',
-        audio: require('@/assets/curso/audios/3.2/8.mp3'),
+        audio: require('@/assets/curso/audios/3.2/10.mp3'),
       },
     ],
     dialogo32: [
       {
-        textoIng: 'Carol needs much sugar for that cake.(FALTA AUDIO)',
+        textoIng: 'Carol needs much sugar for that cake.',
         textoEsp: 'Carol necesita mucha azúcar para ese pastel.',
-        audio: require('@/assets/curso/audios/3.2/8.mp3'),
+        audio: require('@/assets/curso/audios/3.2/11.mp3'),
       },
     ],
     dialogo33: [
       {
-        textoIng: 'You don’t have much patience.(FALTA AUDIO)',
+        textoIng: 'You don’t have much patience.',
         textoEsp: 'Tú no tienes mucha paciencia.',
-        audio: require('@/assets/curso/audios/3.2/8.mp3'),
+        audio: require('@/assets/curso/audios/3.2/12.mp3'),
       },
     ],
     dialogo34: [
       {
-        textoIng: ' Luis reads a piece of news.(FALTA AUDIO)',
+        textoIng: ' Luis reads a piece of news.',
         textoEsp: 'Luis lee una noticia.',
-        audio: require('@/assets/curso/audios/3.2/8.mp3'),
+        audio: require('@/assets/curso/audios/3.2/13.mp3'),
       },
     ],
     dialogo35: [
       {
-        textoIng: ' Kim has a bottle of water.(FALTA AUDIO)',
+        textoIng: ' Kim has a bottle of water.',
         textoEsp: 'Kim tiene una botella de agua.',
         audio: require('@/assets/curso/audios/3.2/14.mp3'),
       },
     ],
     dialogo36: [
       {
-        textoIng: ' The child planted a grain of rice.(FALTA AUDIO)',
+        textoIng: ' The child planted a grain of rice.',
         textoEsp: 'El niño plantó un grano de arroz.',
-        audio: require('@/assets/curso/audios/3.2/8.mp3'),
+        audio: require('@/assets/curso/audios/3.2/15.mp3'),
       },
     ],
     dialogo37: [
       {
-        textoIng: ' I need a lot of information.(FALTA AUDIO)',
+        textoIng: ' I need a lot of information.',
         textoEsp: 'Necesito mucha información.',
-        audio: require('@/assets/curso/audios/3.2/8.mp3'),
+        audio: require('@/assets/curso/audios/3.2/16.mp3'),
       },
     ],
     dialogo38: [

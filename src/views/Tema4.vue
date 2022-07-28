@@ -34,7 +34,7 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
                 p.mb-0.colr_2.text-bold.text-center <em>House - Houses</em>
-                p.mb-0.text-center Casa – Casas
+                p.mb-0.text-center Casa - Casas
         .col-12.col-md-4
           .bgr_28.pst_4.d-flex.justify-content-end
             .bgr_27.p-4
@@ -56,7 +56,7 @@
                 )
                   .indicador--click(v-if="mostrarIndicadorAudio")
                 p.mb-0.colr_2.text-bold.text-center <em>Cat - Cats</em>
-                p.mb-0.text-center Gato – Gatos
+                p.mb-0.text-center Gato - Gatos
     
       p.mb-5 Esta estructura gramatical, referida al plural de los sustantivos regulares, es muy sencilla y depende de la terminación del sustantivo, que puede ser una vocal o una consonante:
 
@@ -71,12 +71,12 @@
               tbody
                 tr.bgt1header
                   td.t1br Sustantivo regular
-                  td.t1br + S
+                  td.t1br + s
                   td.t1br Plural
                   td.td1bd Traducción
                 tr
                   td.tb1bd.tb2bd <em>Table</em>
-                  td(rowspan=6).tb1bd + S
+                  td(rowspan=6).tb1bd + s
                   td.tb1bd <em>Tables</em>
                   td.tb1bd Mesas
                 tr
@@ -175,18 +175,18 @@
         .bgr_32.p-5
           SlyderA.bgr_3.p-5(tipo="b")
             div
-              p Cuando el sustantivo termina en <b>ch, s, sh, x</b> o en <b>z</b>, para formar el plural, se le añade al final  <em>“es”</em>. Por ejemplo:
+              p Cuando el sustantivo termina en <b>ch, s, sh, x</b> o en <b>z</b>, para formar el plural, se le añade al final  <b><em>“es”</em></b>. Por ejemplo:
               .tabla1.color-acento-botones.mb-lg-0
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
                       td.t1br Sustantivo regular
-                      td.t1br +es
+                      td.t1br <em>+es</em>
                       td.t1br Plural
                       td.td1bd Traducción
                     tr
                       td.tb1bd.tb2bd <em>Lunch</em>
-                      td(rowspan=7).tb1bd +es
+                      td(rowspan=7).tb1bd <em>+es</em>
                       td.tb1bd <em>Lunches</em>
                       td.tb1bd Almuerzos
                     tr
@@ -222,18 +222,18 @@
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio")
             div
-              p Cuando el sustantivo termina en consonante seguida de la letra “y”, para formar el plural, se le añade al final  <em>“ies”</em>.  Es decir, se cambia la <b>“y”</b> por <b>“i”</b> y se añade es. Por ejemplo:
+              p Cuando el sustantivo termina en consonante seguida de la letra “y”, para formar el plural, se le añade al final  <b><em>“ies”</em></b>.  Es decir, se cambia la <b>“y”</b> por <b>“i”</b> y se añade es. Por ejemplo:
               .tabla1.color-acento-botones.mb-lg-0
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
                       td.t1br Sustantivo regular
-                      td.t1br +ies
+                      td.t1br <em>+ies</em>
                       td.t1br Plural
                       td.td1bd Traducción
                     tr
                       td.tb1bd.tb2bd <em>Baby</em>
-                      td(rowspan=5).tb1bd +ies
+                      td(rowspan=5).tb1bd <em>+ies</em>
                       td.tb1bd <em>Babies</em>
                       td.tb1bd Bebés
                     tr
@@ -260,18 +260,18 @@
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio") 
             div
-              p Cuando el sustantivo termina en <em>“sis”</em>,  para formar el plural, se le añade al final <em>“ses”</em>.  Es decir, se cambia la <em>“sis”</em> por <em>“ses”</em>. Por ejemplo:
+              p Cuando el sustantivo termina en <b><em>“sis”</em></b>,  para formar el plural, se le añade al final <b><em>“ses”</em></b>.  Es decir, se cambia la <b><em>“sis”</em></b> por <b><em>“ses”</em></b>. Por ejemplo:
               .tabla1.color-acento-botones.mb-lg-0
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
                       td.t1br Sustantivo regular
-                      td.t1br +ses
+                      td.t1br <em>+ses</em>
                       td.t1br Plural
                       td.td1bd Traducción
                     tr
                       td.tb1bd.tb2bd <em>Basis</em>
-                      td(rowspan=4).tb1bd +ses
+                      td(rowspan=4).tb1bd <em>+ses</em>
                       td.tb1bd <em>Bases</em>
                       td.tb1bd Bases
                     tr
@@ -294,18 +294,18 @@
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio") 
             div
-              p Cuando el sustantivo termina en consonante “f” o en “fe”, para formar el plural, se le añade al final <em>“ves”</em>.  Es decir, se cambia la <b>“f”</b> por <b>“v”</b> y se añade <em>“es”</em>. Por ejemplo:
+              p Cuando el sustantivo termina en consonante <b><em>“f”</em></b> o en <b><em>“fe”</em></b>, para formar el plural, se le añade al final <b><em>“ves”</em></b>.  Es decir, se cambia la <b><em>“f”</em></b> por <b><em>“v”</em></b> y se añade <b><em>“es”</em></b>. Por ejemplo:
               .tabla1.color-acento-botones.mb-lg-0
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
                       td.t1br Sustantivo regular
-                      td.t1br +ves
+                      td.t1br <em>+ves</em>
                       td.t1br Plural
                       td.td1bd Traducción
                     tr
                       td.tb1bd.tb2bd <em>Life</em>
-                      td(rowspan=5).tb1bd +ves
+                      td(rowspan=5).tb1bd <em>+ves</em>
                       td.tb1bd <em>Lives</em>
                       td.tb1bd Vidas
                     tr
@@ -331,30 +331,30 @@
                     @audio-hover="mostrarIndicadorAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorAudio") 
-              p Debe indicarse que no todas las palabras que tienen la terminación f o fe siguen esta regla, existen algunos sustantivos con estas terminaciones que forman el plural de manera regular. Por ejemplo:
+              p Debe indicarse que no todas las palabras que tienen la terminación <b><em>f</em></b> o <b><em>fe</em></b> siguen esta regla, existen algunos sustantivos con estas terminaciones que forman el plural de manera regular. Por ejemplo:
               .row  
                 .col-12.col-md-4.text-center
-                  p.mb-0 Chef – Chefs
+                  p.mb-0 <b><em>Chef - Chefs</em></b>
                   p Cocinero - Cocineros
                 .col-12.col-md-4.text-center
-                  p.mb-0 Giraffe – Giraffes
+                  p.mb-0 <b><em>Giraffe - Giraffes</em></b>
                   p Jirafa - Jirafas
                 .col-12.col-md-4.text-center
-                  p.mb-0 Gulf – Gulfs
+                  p.mb-0 <b><em>Gulf - Gulfs</em></b>
                   p Golfo - Golfos
             div
-              p Cuando el sustantivo termina en <b>“o”</b>, para formar el plural, se le añade al final <em>“es”</em>. Por ejemplo:
+              p Cuando el sustantivo termina en <b>“o”</b>, para formar el plural, se le añade al final <b><em>“es”</em></b>. Por ejemplo:
               .tabla1.color-acento-botones.mb-lg-0
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
                       td.t1br Sustantivo regular
-                      td.t1br +oes
+                      td.t1br <em>+oes</em>
                       td.t1br Plural
                       td.td1bd Traducción
                     tr
                       td.tb1bd.tb2bd <em>Potato</em>
-                      td(rowspan=5).tb1bd +oes
+                      td(rowspan=5).tb1bd <em>+oes</em>
                       td.tb1bd <em>Potatoes</em>
                       td.tb1bd Papas
                     tr
@@ -394,23 +394,23 @@
                       td.tb1bd.tb2bd <em>Deer</em>
                       td(rowspan=5).tb1bd -
                       td.tb1bd <em>Deer</em>
-                      td.tb1bd Ciervo- ciervos
+                      td.tb1bd Ciervo/ciervos
                     tr
                       td.tb1bd.tb2bd <em>Moose</em>
                       td.tb1bd <em>Moose</em>
-                      td.tb1bd Alce - alces
+                      td.tb1bd Alce/alces
                     tr
                       td.tb1bd.tb2bd <em>Sheep</em>
                       td.tb1bd <em>Sheep</em>
-                      td.tb1bd Oveja - ovejas
+                      td.tb1bd Oveja/ovejas
                     tr
                       td.tb1bd.tb2bd <em>Fish</em>
                       td.tb1bd <em>Fish</em>
-                      td.tb1bd Pez - peces
+                      td.tb1bd Pez/peces
                     tr
                       td.tb1bd.tb2bd <em>Swine</em>
                       td.tb1bd <em>Swine</em>
-                      td.tb1bd Cerdo – cerdos
+                      td.tb1bd Cerdo/cerdos
               .bgr.p-4.mb-3
                 .d-flex.justify-content-center
                   Audio.color-acento-contenido.mx-3(

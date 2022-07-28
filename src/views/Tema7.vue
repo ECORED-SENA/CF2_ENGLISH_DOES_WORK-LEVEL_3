@@ -70,7 +70,7 @@
                 img(src='@/assets/curso/tema7/t7-6.svg', alt='Texto que describa la imagen')
             .col-md-8.mb-4.mb-md-0
               TarjetaAudio.color-acento-contenido.bgr_20.my-3(
-              texto="<i><span1> Customer: How much are the apples? <br>Seller: The apples are $1 each one. <br>Customer: That’s very cheap!. I’ll take six apples.</span1></i>"
+              texto="<i><span1> Customer: How much are the apples? <br>Seller: The apples are $1 each one. <br>Customer: That’s very cheap! I’ll take six apples.</span1></i>"
                 :audio="require('@/assets/curso/audios/7/4.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )

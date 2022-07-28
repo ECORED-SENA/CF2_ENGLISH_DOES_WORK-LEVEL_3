@@ -154,7 +154,7 @@
             .tarjeta.bgr_17.p-3(x="85.5%" y="88%" numero="+")
               .bgr_18
                 TarjetaAudio.color-acento-contenido(
-                  texto="<i><span1>How much is the TV?</span1></i><br><i><span1>The TV is $899. / Cuesta $899.</span1></i>"
+                  texto="<i><span1>How much is the TV?</span1></i><br><i><span1>The TV is $899. / It is $899.</span1></i>"
                   :audio="require('@/assets/curso/audios/2/15.mp3')"
                   @audio-hover="mostrarIndicadorTarjetaAudio = false")   
 
@@ -175,20 +175,11 @@
         .col-12.col-md-8.mb-3.mb-md-0
           .tarjeta.tarjeta--azul.pst_3.bg3.p-1
             SlyderA(tipo="b")
-              DialogoChat.color-acento-contenido(:dialogo="dialogoChat")
-              DialogoChat.color-acento-contenido(:dialogo="dialogoChat1")
-              DialogoChat.color-acento-contenido(:dialogo="dialogoChat2")
-              DialogoChat.color-acento-contenido(:dialogo="dialogoChat3")
-          .row.d-flex.justify-content-center
-            .col-12.col-md-10
-              .bgr.p-4
-                .d-flex.justify-content-center
-                  Audio.color-acento-contenido.mx-3(
-                    :audio="require('@/assets/curso/audios/2.1/1.mp3')"
-                    @audio-hover="mostrarIndicadorAudio = false"
-                  )
-                    .indicador--click(v-if="mostrarIndicadorAudio")
-                  p.d-flex.align-items-center.text-bold.mb-0 <em>Listen and read</em>
+              TraduccionChat.mb-5.color-primario(:dialogo="traduccionChat")
+              TraduccionChat.mb-5.color-primario(:dialogo="traduccionChat1")
+              TraduccionChat.mb-5.color-primario(:dialogo="traduccionChat2")
+              TraduccionChat.mb-5.color-primario(:dialogo="traduccionChat3")
+              
         .col-12.col-md-2
           figure.d-flex.justify-content-center
             img.img160(src='@/assets/curso/tema2/t2-10.svg', alt='mujer con pulgares arriba')
@@ -226,156 +217,15 @@
 <script>
 import TraduccionAudio from '../components/TraduccionAudio.vue'
 import DialogoChat from '../components/DialogoChat.vue'
+import TraduccionChat from '../components/TraduccionChat.vue'
 export default {
   name: 'Tema2',
   components: {
     TraduccionAudio,
     DialogoChat,
+    TraduccionChat,
   },
   data: () => ({
-    dialogoChat: {
-      personajes: [
-        {
-          nombre: '<em>Clerk</em><br>Empleado',
-          img: require('@/assets/curso/tema2/t2-11.svg'),
-        },
-        {
-          nombre: '<em>Customer</em><br>Cliente',
-          img: require('@/assets/curso/tema2/t2-12.svg'),
-        },
-      ],
-      dialogo: [
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'Good morning. May I help you?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'Yes, please. I like that dress. How much is it?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'Which one? What color do you prefer?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'The red one.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-      ],
-    },
-    dialogoChat1: {
-      personajes: [
-        {
-          nombre: '<em>Clerk</em><br>Empleado',
-          img: require('@/assets/curso/tema2/t2-11.svg'),
-        },
-        {
-          nombre: '<em>Customer</em><br>Cliente',
-          img: require('@/assets/curso/tema2/t2-12.svg'),
-        },
-      ],
-      dialogo: [
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'It´s only $55. It’s on sale.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng:
-            'Ok. It’s reasonable. I’ll take it. And, how much are those shoes?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'The red ones?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'Yes, the red shoes.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-      ],
-    },
-    dialogoChat2: {
-      personajes: [
-        {
-          nombre: '<em>Clerk</em><br>Empleado',
-          img: require('@/assets/curso/tema2/t2-11.svg'),
-        },
-        {
-          nombre: '<em>Customer</em><br>Cliente',
-          img: require('@/assets/curso/tema2/t2-12.svg'),
-        },
-      ],
-      dialogo: [
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'They are $88.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'That’s ok. I’ll take them, too.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'And what size do you like the red dress?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'Medium, please.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-      ],
-    },
-    dialogoChat3: {
-      personajes: [
-        {
-          nombre: '<em>Clerk</em><br>Empleado',
-          img: require('@/assets/curso/tema2/t2-11.svg'),
-        },
-        {
-          nombre: '<em>Customer</em><br>Cliente',
-          img: require('@/assets/curso/tema2/t2-12.svg'),
-        },
-      ],
-      dialogo: [
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'Would you like to try it on?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'No, thanks.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng: 'How are you going to pay?',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Customer</em><br>Cliente',
-          textoIng: 'With my Visa credit card.',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-        {
-          personaje: '<em>Clerk</em><br>Empleado',
-          textoIng:
-            'Ok. Let’s go to the register cash. Thanks for your purchase! ',
-          audio: require('@/assets/curso/audios/2.1/1.mp3'),
-        },
-      ],
-    },
     dialogo: {
       personajes: [
         {
@@ -399,31 +249,193 @@ export default {
         {
           personaje: '<em>Book</em>',
           textoIng: 'How *** the book?<br>The book is $48. ',
-          textoEsp: '¿Cuanto cuesta el libro?<br>El libro cuesta $48.',
+          textoEsp: '¿Cúanto cuesta el libro?<br>El libro cuesta $48.',
           audio: require('@/assets/curso/audios/2.1/2.mp3'),
           palabra: 'much is',
         },
         {
           personaje: '<em>Gloves</em>',
           textoIng: 'How much are the gloves?<br>The gloves are ***',
-          textoEsp: '¿Cuanto estan los guantes?<br>Los guantes cuestan $8',
+          textoEsp: '¿Cúanto cuestan los guantes?<br>Los guantes cuestan $8',
           audio: require('@/assets/curso/audios/2.1/3.mp3'),
           palabra: '$8',
         },
         {
-          personaje: '<em>Book</em>',
+          personaje: '<em>Socks</em>',
           textoIng: 'How *** the socks?<br>The socks are $4.',
           textoEsp:
-            '¿Cuánto estan los calcetines?<br>Los calcetines cuestan $4.',
+            '¿Cuánto cuestan los calcetines?<br>Los calcetines cuestan $4.',
           audio: require('@/assets/curso/audios/2.1/4.mp3'),
           palabra: 'much are',
         },
         {
-          personaje: '<em>Gloves</em>',
+          personaje: '<em>Umbrella</em>',
           textoIng: 'How much is the ***<br>The umbrella is $15',
-          textoEsp: '¿Cuánto es el paraguas?<br>El paraguas cuesta $15.',
+          textoEsp: '¿Cuánto cuesta el paraguas?<br>El paraguas cuesta $15.',
           audio: require('@/assets/curso/audios/2.1/5.mp3'),
           palabra: 'umbrella',
+        },
+      ],
+    },
+    traduccionChat: {
+      personajes: [
+        {
+          nombre: '<em>Charlie</em><br>Empleado',
+          img: require('@/assets/curso/tema2/t2-11.svg'),
+        },
+        {
+          nombre: '<em>Customer</em><br>Cliente',
+          img: require('@/assets/curso/tema2/t2-12.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'Good morning. May I help you?',
+          textoEsp: 'Buenos días. ¿Puedo ayudarle?',
+          audio: require('@/assets/curso/audios/2.1/charla/1.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'Yes, please. I like that dress. How much is it?',
+          textoEsp: 'Si, por favor. Me gusta ese vestido. ¿Cuánto cuesta?',
+          audio: require('@/assets/curso/audios/2.1/charla/2.mp3'),
+        },
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'Which one? What color do you prefer?',
+          textoEsp: '¿Cuál? ¿Qué color prefiere?.',
+          audio: require('@/assets/curso/audios/2.1/charla/3.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'The red one.',
+          textoEsp: 'El rojo.',
+          audio: require('@/assets/curso/audios/2.1/charla/4.mp3'),
+        },
+      ],
+    },
+    traduccionChat1: {
+      personajes: [
+        {
+          nombre: '<em>Charlie</em><br>Empleado',
+          img: require('@/assets/curso/tema2/t2-11.svg'),
+        },
+        {
+          nombre: '<em>Customer</em><br>Cliente',
+          img: require('@/assets/curso/tema2/t2-12.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'It´s only $55. It’s on sale.',
+          textoEsp: 'Cuesta solo 55 dólares. Está en oferta.',
+          audio: require('@/assets/curso/audios/2.1/charla/5.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng:
+            'Ok. It’s reasonable. I’ll take it. And, how much are those shoes?',
+          textoEsp:
+            'Está bien. Es razonable. Me lo llevo. ¿Y cuánto cuestan esos zapatos?',
+          audio: require('@/assets/curso/audios/2.1/charla/6.mp3'),
+        },
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'The red ones?',
+          textoEsp: '¿Los rojos?',
+          audio: require('@/assets/curso/audios/2.1/charla/7.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'Yes, the red shoes.',
+          textoEsp: ' Si, los zapatos rojos.',
+          audio: require('@/assets/curso/audios/2.1/charla/8.mp3'),
+        },
+      ],
+    },
+    traduccionChat2: {
+      personajes: [
+        {
+          nombre: '<em>Charlie</em><br>Empleado',
+          img: require('@/assets/curso/tema2/t2-11.svg'),
+        },
+        {
+          nombre: '<em>Customer</em><br>Cliente',
+          img: require('@/assets/curso/tema2/t2-12.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'They are $88.',
+          textoEsp: 'Cuestan 88 dólares.',
+          audio: require('@/assets/curso/audios/2.1/charla/9.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'That’s ok. I’ll take them, too.',
+          textoEsp: ' Está bien. Los llevaré también.',
+          audio: require('@/assets/curso/audios/2.1/charla/10.mp3'),
+        },
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'And what size do you like the red dress?',
+          textoEsp: ' ¿Y en qué talla quiere el vestido rojo?',
+          audio: require('@/assets/curso/audios/2.1/charla/11.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'Medium, please.',
+          textoEsp: ' Talla mediana, por favor.',
+          audio: require('@/assets/curso/audios/2.1/charla/12.mp3'),
+        },
+      ],
+    },
+    traduccionChat3: {
+      personajes: [
+        {
+          nombre: '<em>Charlie</em><br>Empleado',
+          img: require('@/assets/curso/tema2/t2-11.svg'),
+        },
+        {
+          nombre: '<em>Customer</em><br>Cliente',
+          img: require('@/assets/curso/tema2/t2-12.svg'),
+        },
+      ],
+      dialogo: [
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'Would you like to try it on?',
+          textoEsp: '¿Quiere probárselo?',
+          audio: require('@/assets/curso/audios/2.1/charla/13.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'No, thanks.',
+          textoEsp: 'No, gracias.',
+          audio: require('@/assets/curso/audios/2.1/charla/14.mp3'),
+        },
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng: 'How are you going to pay?',
+          textoEsp: '¿Cómo va a pagar?',
+          audio: require('@/assets/curso/audios/2.1/charla/15.mp3'),
+        },
+        {
+          personaje: '<em>Customer</em><br>Cliente',
+          textoIng: 'With my Visa credit card.',
+          textoEsp: 'Con mi tarjeta de crédito Visa.',
+          audio: require('@/assets/curso/audios/2.1/charla/16.mp3'),
+        },
+        {
+          personaje: '<em>Charlie</em><br>Empleado',
+          textoIng:
+            'Ok. Let’s go to the register cash. Thanks for your purchase!',
+          textoEsp:
+            'Está bien. Vamos a la caja registradora. ¡Gracias por su compra!',
+          audio: require('@/assets/curso/audios/2.1/charla/17.mp3'),
         },
       ],
     },

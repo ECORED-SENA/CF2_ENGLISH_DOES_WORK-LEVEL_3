@@ -22,7 +22,7 @@
         .col-12.col-md-7
           .titulo-sexto.color-acento-contenido
             h5 Tabla 1
-            span <em>Food and amounts</em> / Alimentos y cantidade
+            span <em>Food and amounts</em> / Alimentos y cantidades
 
           .tabla1.color-acento-botones.mb-lg-0
             table.text-center.w-100
@@ -113,17 +113,17 @@
     .bg_grad-03
       .row.p-5.d-flex.justify-content-center.align-items-center
         .col-12.col-md-6.mb-3.mb-md-0
-          p.text-bold.mb-3.mb-md-5.colr_2 Ingredients needed  / Ingredientes necesarios:
+          p.text-bold.mb-3.mb-md-5.colr_2 <em>Ingredients needed</em>  / Ingredientes necesarios:
           .row.mb-3.mb-md-5 
             .col-12.col-md-6.mb-3.mb-md-0
               p.mb-0 <b><em>English</em> / Inglés</b>
-              p.mb-0 ●	1/4 kilo of flour 
-              p.mb-0 ●	120 grams of butter
-              p.mb-0 ●	Two fresh eggs
-              p.mb-0 ●	125 ml of milk
-              p.mb-0 ●	230 grams of sugar
-              p.mb-0 ●	1 teaspoon of essence of vanilla
-              p.mb-0 ●	2 teaspoons of yeast
+              p.mb-0 ●	<em>1/4 kilo of flour</em> 
+              p.mb-0 ●	<em>120 grams of butter</em>
+              p.mb-0 ●	<em>Two fresh eggs</em>
+              p.mb-0 ●	<em>125 ml of milk</em>
+              p.mb-0 ●	<em>230 grams of sugar</em>
+              p.mb-0 ●	<em>1 teaspoon of essence of vanilla</em>
+              p.mb-0 ●	<em>2 teaspoons of yeast</em>
             .col-12.col-md-6
               p.mb-0 <b><em>Spanish</em> / Español</b>
               p.mb-0 ●	1/4 kilo de harina
@@ -212,7 +212,7 @@
             span.colr_2.r-3.fst-italic.fw-bold Drugstores
             br
             | (Farmacias)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-12.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Electronic stores
@@ -230,7 +230,7 @@
             span.colr_2.r-3.fst-italic.fw-bold Ice cream shop
             br
             | (Heladería)
-      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-6.png')})`}" style='height: 394px')
+      .tarjeta.p-4.d-flex.align-items-end.tarjeta-bg(:style="{'background-image': `url(${require('@/assets/curso/tema1/t1-15.png')})`}" style='height: 394px')
         .tarjeta.bg-white.p-3.w-100.text-small
           p.mb-0.text-center
             span.colr_2.r-3.fst-italic.fw-bold Jewelry store
@@ -489,7 +489,7 @@ export default {
     dialogo7: [
       {
         textoIng:
-          '<em>Sam needs to buy a</em> <i>chair.</i> <em>Answer: He goes to the </em> <b>shoe store.</b>',
+          '<em>Sam needs to buy a</em> <i>chair.</i> <em>Answer: He goes to the </em> <b>furniture store.</b>',
         textoEsp:
           'Sam necesita comprar una silla. Respuesta: Él va a la mueblería.',
         audio: require('@/assets/curso/audios/1.2/8.mp3'),
