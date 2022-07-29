@@ -304,7 +304,7 @@ export default {
         {
           personaje: '<em>Charlie</em><br>Empleado',
           textoIng: 'Which one? What color do you prefer?',
-          textoEsp: '¿Cuál? ¿Qué color prefiere?.',
+          textoEsp: '¿Cuál? ¿Qué color prefiere?',
           audio: require('@/assets/curso/audios/2.1/charla/3.mp3'),
         },
         {
@@ -329,7 +329,7 @@ export default {
       dialogo: [
         {
           personaje: '<em>Charlie</em><br>Empleado',
-          textoIng: 'It´s only $55. It’s on sale.',
+          textoIng: 'It’s only $55. It’s on sale.',
           textoEsp: 'Cuesta solo 55 dólares. Está en oferta.',
           audio: require('@/assets/curso/audios/2.1/charla/5.mp3'),
         },
@@ -350,7 +350,7 @@ export default {
         {
           personaje: '<em>Customer</em><br>Cliente',
           textoIng: 'Yes, the red shoes.',
-          textoEsp: ' Si, los zapatos rojos.',
+          textoEsp: ' Sí, los zapatos rojos.',
           audio: require('@/assets/curso/audios/2.1/charla/8.mp3'),
         },
       ],
