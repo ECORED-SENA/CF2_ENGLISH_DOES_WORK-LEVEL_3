@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: '<em>A shopping day!</em><br><b>Un día de compras</b>',
     descripcionCurso:
-      'A través del componente formativo, se provee al aprendiz vocabulario, información y prácticas, que le van a preparar para el intercambio de ideas u opiniones referidas a temas que incluyen alimentos, precios y cantidades.',
+      'A través del componente formativo, se provee al aprendiz, vocabulario, información y prácticas, que le van a preparar para el intercambio de ideas u opiniones referidas a temas que incluyen alimentos, precios y cantidades.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

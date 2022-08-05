@@ -9,7 +9,7 @@
 
     .bg_grad-01.mb-5
       .row
-        .col-12.col-md-4(data-aos="zoom-in")
+        .col-12.col-md-4.mb-3.mb-md-0(data-aos="zoom-in")
           figure
             img(src='@/assets/curso/tema1/t1-1.png', alt='hombre con una idea')
         .col-12.col-md-8.d-flex.align-items-center
@@ -159,8 +159,8 @@
 
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Titulo de actividad - Completa la conversación.
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#titulo-actividad) Completa la conversación.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     
     separador
 
@@ -394,7 +394,8 @@ export default {
         },
         {
           personaje: 'Paula',
-          textoIng: 'Question 3: What does Luis want to eat at the restaurant?',
+          textoIng:
+            'Question 3: What does Merly want to eat at the restaurant? ',
           textoEsp: 'Pregunta 3: ¿Qué quiere comer Merly en el restaurante?',
           audio: require('@/assets/curso/audios/1.1/5.mp3'),
         },
@@ -480,7 +481,7 @@ export default {
     dialogo6: [
       {
         textoIng:
-          '<em>Tom wants to buy an</em> <i>Iphone.</i> <em>Answer: He goes to the</em> <b>electronic store.</b>',
+          '<em>Tom wants to buy an</em> <i>iPhone.</i> <em>Answer: He goes to the</em> <b>electronic store.</b>',
         textoEsp:
           'Tom quiere comprar un Iphone. Respuesta: Él va a la tienda de electrónicos.',
         audio: require('@/assets/curso/audios/1.2/7.mp3'),

@@ -9,7 +9,7 @@
 
     .bg_grad-10.mb-5
       .row
-        .col-12.col-md-2(data-aos="zoom-in")
+        .col-12.col-md-2.mb-3.mb-md-0(data-aos="zoom-in")
           figure.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-1.svg', alt='recuadros con letras')
         .col-12.col-md-10.d-flex.align-items-center
@@ -123,7 +123,7 @@
 
     .bg_grad-12.mb-5
       .row
-        .col-12.col-md-2(data-aos="zoom-in")
+        .col-12.col-md-2.mb-3.mb-md-0(data-aos="zoom-in")
           figure.d-flex.justify-content-center
             img.img140(src='@/assets/curso/tema3/t3-4.svg', alt='recuadros con letras')
         .col-12.col-md-10.d-flex.align-items-center

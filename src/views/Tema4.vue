@@ -180,7 +180,7 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
+                      td.t1br Sustantivo irregular
                       td.t1br <em>+es</em>
                       td.t1br Plural
                       td.td1bd Traducción
@@ -227,7 +227,7 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
+                      td.t1br Sustantivo irregular
                       td.t1br <em>+ies</em>
                       td.t1br Plural
                       td.td1bd Traducción
@@ -265,7 +265,7 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
+                      td.t1br Sustantivo irregular
                       td.t1br <em>+ses</em>
                       td.t1br Plural
                       td.td1bd Traducción
@@ -299,7 +299,7 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
+                      td.t1br Sustantivo irregular
                       td.t1br <em>+ves</em>
                       td.t1br Plural
                       td.td1bd Traducción
@@ -348,13 +348,13 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
-                      td.t1br <em>+oes</em>
+                      td.t1br Sustantivo irregular
+                      td.t1br <em>+es</em>
                       td.t1br Plural
                       td.td1bd Traducción
                     tr
                       td.tb1bd.tb2bd <em>Potato</em>
-                      td(rowspan=5).tb1bd <em>+oes</em>
+                      td(rowspan=5).tb1bd <em>+es</em>
                       td.tb1bd <em>Potatoes</em>
                       td.tb1bd Papas
                     tr
@@ -386,7 +386,7 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
+                      td.t1br Sustantivo irregular
                       td.t1br +
                       td.t1br Plural
                       td.td1bd Traducción
@@ -424,7 +424,7 @@
                 table.text-center.w-100
                   tbody
                     tr.bgt1header
-                      td.t1br Sustantivo regular
+                      td.t1br Sustantivo irregular
                       td.t1br +
                       td.t1br Plural
                       td.td1bd Traducción

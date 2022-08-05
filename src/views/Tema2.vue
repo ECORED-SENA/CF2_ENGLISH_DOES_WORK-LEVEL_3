@@ -163,7 +163,7 @@
         figure
           img(src='@/assets/curso/tema2/t2-8.jpg', alt='mujer con pulgares arriba')
       .col-12.col-md-7
-        p.text-bold <em>A kind clerck</em> / Un empleado amable
+        p.text-bold <em>A kind clerk</em> / Un empleado amable
         p Cuando se visita una tienda para comprar un producto que se necesita, existe una persona que recibe al cliente y lo atiende, preguntándole acerca de lo que requiere para poder darle información y mostrar los productos que ofrecen en la tienda, de manera que la experiencia del cliente sea agradable y lo motive a regresar.
         p El intercambio entre el cliente <em>(customer)</em> y el empleado <em>(clerk)</em> debe ser respetuoso, por lo que el empleado tratará de saber lo que necesita la persona que visita la tienda y actuará con prontitud, utilizando preguntas claves sobre el color y la talla, para que el cliente o usuario se sienta bien atendido. Seguidamente, se presenta un diálogo en la tienda <em>(store, shop)</em>, como se muestra a continuación:
 
@@ -208,8 +208,8 @@
 
     Dialogo.color-primario(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
-      template(#titulo-actividad) Actividad - completar <em>how much</em>
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#titulo-actividad) Completar <em>how much</em>
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
     
 </template>
