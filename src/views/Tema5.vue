@@ -136,7 +136,7 @@
           .col-12.col-md-5
             TarjetaAudio.color-acento-contenido.bgr_33.my-3(
               texto="<i><span1>Sue and Mark have a lot of <b>money.</b></span1></i>"
-                :audio="require('@/assets/curso/audios/5/10.mp3')"
+                :audio="require('@/assets/curso/audios/5/10.mp3')"  
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )                    
             p.mb-0 Sue y Mark tienen mucho dinero.
