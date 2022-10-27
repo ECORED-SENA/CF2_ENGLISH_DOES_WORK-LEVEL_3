@@ -1,7 +1,7 @@
 <template lang="pug">
 .traduccion
   .row.justify-content-center.align-items-center.g-0
-    .col-12.traduccion
+    .col-12.
       .row.g-0.flex-nowrap.traduccion__chat__item.mb-3(v-for="(line, lineIdx) in dialogoComputed")
         .col.traduccion__chat__item__message__container
           .traduccion__chat__item__message
