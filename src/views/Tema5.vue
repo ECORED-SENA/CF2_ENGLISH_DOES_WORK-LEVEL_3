@@ -91,7 +91,7 @@
                 :audio="require('@/assets/curso/audios/5/6.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )                    
-            p.mb-0 Ellos tienen muchas naranjas en la cesta.
+            p.mb-0 Ellos tienen muchas manzanas en la cesta.
         .row.d-flex.justify-content-center.mb-3.mb-md-0
           .col-12.col-md-2.mb-3.mb-md-0
             figure
